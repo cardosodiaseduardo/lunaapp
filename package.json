@@ -1,0 +1,27 @@
+{
+  "name": "luna-api",
+  "version": "1.0.0",
+  "description": "Projeto LUNA",
+  "main": "AppLuna.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardosodiaseduardo/lunaapp.git"
+  },
+  "keywords": [
+    "LunaAPPthiagoeeduardo"
+  ],
+  "author": "Thiago e Eduard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardosodiaseduardo/lunaapp/issues"
+  },
+  "homepage": "https://github.com/cardosodiaseduardo/lunaapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}

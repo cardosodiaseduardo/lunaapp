@@ -1,0 +1,11 @@
+{
+    "development" : {
+        "port" : 3000,
+        "db" : {
+            "name" : "test?retryWrites=true",
+            "url" : "cluster0-1mdc2.mongodb.net",
+            "user" : "thiagoskill",
+            "password" : "Dota02security*"
+        }
+    }
+}
