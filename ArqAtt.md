@@ -1,5 +1,9 @@
 Atualizações:
 
+Att.2
+-> 23.03.2019 as 9:14
+- alterado model do Entregador;
+
 Att.1
 -> 23.03.2019 as 8:48
 - criado pasta da API (luna-api) e do ADMIN (luna-admin);
