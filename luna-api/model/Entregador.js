@@ -4,7 +4,13 @@
 
 class Entregador{
 
-    
+    constructor(){
+
+        
+
+
+
+    }
 
 }
 
