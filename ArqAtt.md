@@ -1,5 +1,10 @@
 Atualizações:
 
+Att.3 Criando Models - Thiagoskill
+->Houve alteração no nível das pastas por erro de node
+-> Não consigo conexão ao Cluster (login:thiago_sigma_skill@hotmail.com.com) "sim 2x .com nao sei porq"
+   Senha:Dota02security*
+
 Att.2
 -> 23.03.2019 as 9:14
 - alterado model do Entregador;
