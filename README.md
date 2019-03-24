@@ -1,7 +1,13 @@
 # lunaapp
 
-Inicio dos testes
+Inicio da aplicação LunaApp
 
-Thiago Rei do Dota 2!
+Para devs:
 
-Teste 2!
+1. baixar as dependencias do npm com o comando:
+
+"npm install"
+
+2. Baixar também as dependencias do Express:
+
+"Express install"
