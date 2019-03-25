@@ -5,7 +5,7 @@ const Mongoose = require('mongoose')
 const env = process.NODE_ENV || 'development'
 const BodyParser = require('body-parser')
 const config = require('./config.json')[env]
-const UsuarioModel = require('./model/Usuario')
+const Usuario = require('./model/Usuario')
 
 
 class AppLuna{
@@ -21,10 +21,10 @@ class AppLuna{
 
         this.app.use(Cors())
 
-        Mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}/${config.db.name}`, { useNewUrlParser: true})
+        Mongoose.connect(`mongodb+srv://${config.db.user}:${config.db.password}@${config.db.url}/${config.db.name}`, { useNewUrlParser: true})
 
         //Chamando Entidades
-        new UsuarioModel()
+        new Usuario()
 
         //Chamando Rotas
         const UsuarioRoute = require('./route/UsuarioRoute')

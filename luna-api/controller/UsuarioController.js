@@ -1,6 +1,6 @@
 'use strict'
 const Mongoose = require('mongoose')
-const Usuario =  Mongoose.model('UsuarioModel')
+const Usuario =  Mongoose.model('Usuario')
 
 
 class UsuarioController{
@@ -27,7 +27,7 @@ class UsuarioController{
             let resultado = await Usuario.create(req.body)
             console.log("Resultado: " +resultado)
             res.status(200).json(resultado)
-        }catch{
+        }catch (error){
             console.log("Erro ao salvar Usuario" + error)
             res.status(500).send("Erro ao Adicionar Usuario")
         }

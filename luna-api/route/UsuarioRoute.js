@@ -3,7 +3,7 @@ const UsuarioController = require('./../controller/UsuarioController')
 
 class UsuarioRoute{
     constructor(app){
-        app.route('/UsuarioModel')
+        app.route('/Usuario')
             .get(UsuarioController.buscarTodos)
             .post(UsuarioController.adicionar)
             .delete(UsuarioController.deletar)

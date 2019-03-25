@@ -2,11 +2,10 @@
     "development" : {
         "port" : 3000,
         "db" : {
-            "name" : "test?retryWrites=true",
-            "url" : "lunacluster-1mdc2.mongodb.net",
-            "user" : "thiagoskill",
-            "password" : "Dota02security*"  
+            "name" : "Aplications",
+            "url" : "aplications-o3v3x.mongodb.net",
+            "user" : "cardosodiaseduardo",
+            "password" : "100familia"
         }
     }
 }
-

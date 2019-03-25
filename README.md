@@ -8,6 +8,10 @@ Para devs:
 
 "npm install"
 
-2. Baixar também as dependencias do Express:
+2. Baixar também as dependencias do Express dentro da pasta da API:
 
-"Express install"
+"npm install express --save"
+
+3. Baixar as dependencias do Node dentro da pasta da API:
+
+"npm install node --save"

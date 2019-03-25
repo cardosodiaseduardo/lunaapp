@@ -2,7 +2,7 @@
 
 const Mongoose = require('mongoose');
 
-class UsuarioModel extends Mongoose.Schema{
+class Usuario extends Mongoose.Schema{
 
     constructor(){
         super({
@@ -17,16 +17,16 @@ class UsuarioModel extends Mongoose.Schema{
             },
             tipo:{
                 type: String,
-                enum: ['Administrador', 'Entregador'],
+                enum: ['ADMIN', 'COLABORADOR'],
                 required: true
             }
  
     });
 
     
-    Mongoose.model('UsuarioModel', this);
+    Mongoose.model('Usuario', this);
 }
 
 }
 
-module.exports = UsuarioModel
+module.exports = Usuario
