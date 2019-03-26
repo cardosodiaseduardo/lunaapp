@@ -1,5 +1,10 @@
 Atualizações:
 
+Att.5 - (C: cardosodiaseduardo)
+-> 26.03.2019 as 08:45
+- criação da entidade Colaborador (rota, modelo e controlador)
+obs: que será o entregador
+
 Att.4 - (C: cardosodiaseduardo)
 -> 23.03.2019 as 22:47
 - criação da pasta "admin" e criação da pasta "api";
