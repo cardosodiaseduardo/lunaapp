@@ -1,4 +1,10 @@
 Atualizações:
+Att.6 - (C: Thiagoskill)
+-> 26.03.2019 as 22:45
+- criação da entidade Cliente (rota, modelo e controlador)
+obs: que será o Será o individuo a ser cobrado pelo entregador.
+- Foi commitado com erro no cliente a resolver, farei isso amanha pra tirar dúvidas
+quanto a esse erro do POSTMAN
 
 Att.5 - (C: cardosodiaseduardo)
 -> 26.03.2019 as 08:45

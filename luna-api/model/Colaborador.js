@@ -6,10 +6,6 @@ class Colaborador extends Mongoose.Schema{
 
     constructor(){
         super({
-            ID_int:{
-                type: String,
-                required: true
-            },
 
             Nome:{
                 type: String,
