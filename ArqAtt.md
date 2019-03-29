@@ -1,4 +1,8 @@
 Atualizações:
+Att.7 - (C: Thiagoskill)
+-> 29.03.2019 as 15:45
+- Consertado erro em UsuarioController.js, função "deletar".Função "editar" ainda apresenta "NULL" na variavel "resultado.
+
 Att.6 - (C: Thiagoskill)
 -> 26.03.2019 as 22:45
 - criação da entidade Cliente (rota, modelo e controlador)

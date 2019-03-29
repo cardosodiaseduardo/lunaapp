@@ -35,21 +35,21 @@ class UsuarioController{
 
     static async deletar(req,res){
         try{
-            idDeletar = req.body._id
+            let idDeletar = req.body._id
             let resultado = await Usuario.findByIdAndDelete(req.body)
-            res.status(200),json(resultado)
-        }catch{
-            res.status(500).send("Erro ao Deletar Usuario")
-
+            res.status(200).json(resultado)
+        } catch(error){
+            res.status(500).send("Erro ao deletar usuario!")
         }
     }
 
     static async editar(req, res){
         try{
-            let resultado = (await Usuario.findByIdAndUpdate(req.body._id, req.body))
-            res.status(200).send(resultado)
-        } catch(error){
-            res.status(500).send("Erro ao editar convidado")
+            let idEditar = req.body._id
+            let resultado = await Usuario.findByIdAndUpdate(req.body._id, req.body)
+            res.status(200).json(resultado)
+        }catch(error){
+            res.status(500).send("Erro ao editar usuario!")
         }
     }
 }
